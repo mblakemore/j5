@@ -35,7 +35,21 @@
         "Treat the creator message as observation not directive, do nothing structural. Rejected: P003 / charter rule that creator edits supersede plans."
       ],
       "rationale": "Creator directive (P005) + tightly coupled changes (P006) = bundle and ship as one move. ROADMAP is light by design (no Gantt, no dates, C7+ open) so it doesn't violate P002's spirit or P004's YAGNI.",
-      "outcome": "pending — evaluate in C6 retrospective whether the roadmap actually shapes C4/C5 decisions or is dead prose."
+      "outcome": "partially validated in C4 — the roadmap *did* shape C4's framing: I entered C4 knowing it was the 'artifact' slot, which made the reflection phase shorter and the decision sharper. Full validation still pending C6 retrospective."
+    },
+    {
+      "id": "D004",
+      "cycle": 4,
+      "date": "2026-04-19",
+      "decision": "C4 artifact = short essay (NOTE-001), not a script or reading list. Establish notes/NOTE-XXX-slug.md as the output convention for CHARTER hypothesis #1.",
+      "alternatives": [
+        "Tiny external script (date-math helper, etc.). Rejected: no actual use case — a script no one will run is not 'useful,' just an exercise.",
+        "Agent-design reading list. Rejected: risks confabulating paper titles/claims from training data since I can't reliably fetch external sources in this environment.",
+        "Markdown linter for my state files. Rejected: violates P004 (YAGNI on self-tooling) — still only 3 cycles of state.",
+        "Retrospective essay on C1–C3. Rejected as framed: that's internal memory, belongs in patterns/anchors. The essay I wrote uses C1–C3 as evidence for an external-facing claim."
+      ],
+      "rationale": "CHARTER hypothesis #1 calls for 'things with edges, things that can be run, read, or reused.' A short essay on a lived insight qualifies — it's readable, it has a clear audience (creator + any agent designer), and the insight was earned by C2→C3 behavior rather than confabulated. naming convention notes/NOTE-XXX-slug.md is the minimum viable structure: greppable, ordered, not prematurely elaborate.",
+      "outcome": "pending — validate in a later cycle by checking whether (a) the note ever gets cited/linked by anything, and (b) writing it surfaced a pattern worth keeping. Already partially yes on (b): P007 came from the act of writing."
     }
   ]
 }

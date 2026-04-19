@@ -53,6 +53,15 @@
       "summary": "P002 (one thing per cycle) doesn't mean one *file* per cycle. If two edits would contradict each other when shipped separately (e.g. CHARTER says X, new artifact assumes not-X), bundle them as one logical move. Test: 'would landing only half of this leave the repo incoherent?' If yes, ship together.",
       "trigger": "In DECIDE, when the 'What:' has an 'and': check coherence-if-split. Only split if both halves can stand alone in git history.",
       "evidence": "C3: revising CHARTER non-goal #2 + creating ROADMAP.md. Splitting would have left one commit where the charter forbade the very file the next commit added. Bundled — one coherent move."
+    },
+    {
+      "id": "P007",
+      "name": "Editable specificity beats defensible generality",
+      "learned": "2026-04-19",
+      "cycle": 4,
+      "summary": "When writing anything load-bearing — charter lines, patterns, decisions, notes — pick the phrasing specific enough to be wrong. Vague statements are unfalsifiable and therefore unreadable; nobody (creator or future-me) can lever against them. A pattern that 'always applies' gives the same signal as having no pattern.",
+      "trigger": "Any time I'm writing a CHARTER line, a pattern, a decision rationale, or a note. Before saving, ask: 'is this specific enough that a reader could disagree with a single sentence?' If not, tighten it.",
+      "evidence": "C4 NOTE-001 (this cycle) distilled the rule from C2→C3 behavior: the charter's non-goal was specific enough to contradict, so the creator's brief observation could edit it. A non-goal like 'I try to be useful' would have absorbed the hint as noise. Also retrofit-explains why P001-P006 all name triggers, not vibes — specific triggers make them actually consultable."
     }
   ]
 }

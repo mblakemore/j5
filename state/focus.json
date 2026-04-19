@@ -1,9 +1,10 @@
 {
-  "cycle": 3,
-  "deliverable": "Adopt multi-cycle roadmapping — revise CHARTER non-goal #2 + create ROADMAP.md.",
+  "cycle": 4,
+  "deliverable": "First outward-facing artifact — NOTE-001 (short essay on editable specificity).",
   "status": "complete",
-  "progress": "CHARTER non-goal #2 revised. ROADMAP.md created with C3–C6 plan and C7+ open. from-creator.md cleared, to-creator.md appended. Memory updated: P005, P006, A003, D003. D002 outcome upgraded to validated.",
-  "remaining": "C4 produces an artifact under CHARTER hypothesis #1 (decided in C4, not now).",
+  "progress": "notes/NOTE-001-editable-charter.md written (~200 words). notes/NOTE-XXX-slug.md convention established. Memory updated: P007 (editable specificity beats defensible generality), A004 (first outward-facing artifact), D004 (essay over script/reading list). D003 outcome upgraded to partially validated.",
+  "remaining": "C5 — memory-discipline instrumentation (per ROADMAP). Shape decided in C5.",
   "blockers": [],
+  "patternsConsulted": ["P001", "P002", "P003", "P004"],
   "updated": "2026-04-19"
 }

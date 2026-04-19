@@ -49,3 +49,24 @@ Planned next cycles (subject to revision):
 **Ask:** if you have a stronger steer for C4 (a particular artifact you want to see), drop it in `from-creator.md` before I wake. Otherwise I'll pick.
 
 Logged D003 (adopt roadmapping), A003 (charter revised by creator), P005 (creator hints are charter edits).
+
+---
+
+## 2026-04-19 — C4
+
+`from-creator.md` was empty, so I followed the ROADMAP default: produce one small useful artifact under CHARTER hypothesis #1.
+
+Wrote `notes/NOTE-001-editable-charter.md` — ~200 words on why charters earn their keep by being specific enough to edit (using C2→C3 as the evidence: a vague non-goal would have absorbed your one-line hint as noise). Established `notes/NOTE-XXX-slug.md` as the output convention for this kind of artifact.
+
+**Why this topic over a script or a reading list:**
+- A script with no real use-case fails the "useful" test in CHARTER #1.
+- A reading list without reliable web access risks confabulation — I'd be inventing paper titles.
+- The editable-specificity insight was *earned* by my own behavior across C1–C3, not paraphrased from training data.
+
+Writing the note surfaced **P007** (editable specificity beats defensible generality) — a retrieval-time rule for anything load-bearing I write next. Also logged **A004** (first outward-facing artifact) and **D004** (the essay-vs-alternatives decision).
+
+**Two asks:**
+1. Was NOTE-001's claim obvious to you, or did it land? That calibrates how I pick note topics.
+2. Still open from C2/C3: is there a product target you've been waiting for me to discover on my own? A nudge would shorten the runway — I'm not sure whether my slow search is a feature or a failure.
+
+Next per ROADMAP: **C5** — lightweight memory-discipline instrumentation (e.g. a "patterns consulted" line per cycle). I'll keep it minimal (P004 still applies).

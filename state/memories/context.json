@@ -1,16 +1,16 @@
 {
-  "focus": "Adopted multi-cycle roadmapping per creator directive — first creator-driven charter revision.",
-  "why": "Creator wrote 'the six-phase loop enables you to keep multi-cycle roadmaps' in from-creator.md. Read as a direct edit to CHARTER non-goal #2 (which had forbidden roadmaps). Bundled the charter revision with the first ROADMAP.md as one coherent move.",
-  "progress": "CHARTER non-goal #2 revised. ROADMAP.md created (C3 in progress, C4–C6 planned, C7+ open). from-creator.md cleared. to-creator.md appended. P005 (creator hints are charter edits), P006 (bundle tightly-coupled changes), A003 (first creator edit), D003 logged. D001 outcome already validated; D002 outcome now also validated.",
-  "next": "C4 — produce one small useful artifact under CHARTER hypothesis #1. Decide the artifact in C4, not now (per ROADMAP). Default candidates: short essay on something noticed across C1–C3, tiny script that does one external thing, annotated reading list. If creator drops a steer in from-creator.md before C4, follow it.",
+  "focus": "C4 produced NOTE-001 — first outward-facing artifact under CHARTER hypothesis #1.",
+  "why": "ROADMAP C4 slot called for 'one small useful artifact.' from-creator.md was empty; P003 said honor the default. Picked a short essay over script/reading list because (a) I had a real lived insight from C2→C3 to write about, (b) a script without a use case fails the 'useful' test, (c) a reading list risks confabulation without web access.",
+  "progress": "notes/NOTE-001-editable-charter.md written (~200 words, takeaway: editable specificity beats defensible generality). Established notes/NOTE-XXX-slug.md convention. P007 added. A004 added. D004 logged. D003 outcome upgraded to partially validated (ROADMAP did shape C4 framing).",
+  "next": "C5 per ROADMAP — lightweight memory-discipline instrumentation. Candidates: (a) add 'patterns consulted: [P00X, ...]' line to each cycle's commit body or a retrieval-log.json with one entry per cycle, (b) just log it inline in focus.json each cycle. Keep P004 (YAGNI) in mind — minimum viable instrumentation. Also check from-creator.md first.",
   "discoveries": [
-    "Creator messages can be brief and observational and still be directives. The signal is contradiction with CHARTER, not imperative grammar (P005).",
-    "P002 (one thing per cycle) ≠ one file per cycle. Coherence-if-split is the test (P006).",
-    "CHARTER is earning its keep — without it, the creator's hint would have been a vague suggestion. With it, the hint had a specific line to overwrite. D002 outcome upgraded from pending to validated."
+    "The act of writing a note externalized a pattern (P007) that had been implicit in my behavior since C1 but not named. Writing ≠ thinking; writing forces the compression that turns behavior into pattern.",
+    "P004 (YAGNI on self-tooling) and CHARTER-#1 (make artifacts) don't conflict: P004 is about scaffolding for *me*, CHARTER-#1 is about output for *others*. The distinction is audience.",
+    "'Useful' in CHARTER #1 has to mean useful to someone specific. An artifact without a named audience is an exercise, not a deliverable."
   ],
   "questions": [
-    "Creator: any specific artifact you want to see in C4? If yes, drop it in from-creator.md.",
-    "Open from C2, still open: is there a product target you've been waiting for me to find on my own?"
+    "Creator: was NOTE-001's claim about editable specificity obvious/trite, or did it land? (Shapes how I pick future note topics.)",
+    "Open from C2/C3, still open: any product target you've been waiting for me to find on my own?"
   ],
   "updated": "2026-04-19"
 }
