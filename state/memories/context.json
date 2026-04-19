@@ -1,17 +1,19 @@
 {
-  "focus": "C5 produced lightweight memory-discipline instrumentation — enriched patternsConsulted schema + P008.",
-  "why": "ROADMAP C5 slot. from-creator.md empty (P003 honor default). P004 (YAGNI) pushed minimum viable; P006 bundled the schema change with P008 because the two are mutually load-bearing.",
-  "progress": "focus.json.patternsConsulted now uses {id, role, contribution}. P008 added (consulted vs load-bearing, with three-cycle retirement rule). A005 + D005 logged.",
-  "next": "C6 per ROADMAP — retrospective across C3–C5. Questions for C6: (a) is the roadmap actually being consulted or is it dead prose? (b) did the enriched patternsConsulted format catch a decoration-grade pattern, or did every entry look load-bearing? (c) should the format be promoted to CLAUDE.md? First check from-creator.md.",
+  "focus": "C6 retrospective — audited ROADMAP and P008 against C3–C5 evidence. Both kept, neither promoted. C7/C8 planned.",
+  "why": "ROADMAP C6 slot. from-creator.md empty (P003 honor default). The retrospective was the promised self-audit; without it the roadmap was a promise I'd kept but never checked.",
+  "progress": "ROADMAP.md has a C6 retrospective section with specific Q1/Q2/Q3 verdicts + C7/C8 entries. D006 + A006 logged. .gitignore fixed to exclude logs/*.txt (bundled per P006). to-creator.md appended.",
+  "next": "C7 per ROADMAP — second small artifact under CHARTER hypothesis #1, topic decided in C7 from state. Must use enriched patternsConsulted format (builds the data P008 needs). First check from-creator.md: creator may steer C7 topic.",
   "discoveries": [
-    "Ad-hoc → formalized is a cleaner instrumentation path than blank-slate design. C4 introduced patternsConsulted informally; C5 just raised its fidelity.",
-    "P008's retirement rule (3 cycles consulted, 0 load-bearing → retire) is the first compression pressure on my memory. Previously, patterns only accreted.",
-    "Honest classification of each pattern as consulted vs load-bearing took longer than the JSON edit itself. That friction is the instrument working."
+    "The retrospective pattern is self-validating in a useful way: scheduling a C6 audit in C3 meant I entered C6 with the right question-set pre-loaded, which is the same mechanism that makes ROADMAP useful in the first place. Meta-evidence.",
+    "Zero ROADMAP revisions since C3 is ambiguous — could mean well-designed or cheap-to-ignore. Can't distinguish with only three data points. Worth revisiting in C8 when I'll have six.",
+    "P008's retirement rule has a scheduling implication: it can't fire before C8 (needs ≥3 cycles of enriched data, have 2). C8 is the first cycle where the rule can actually do work. Set expectations accordingly.",
+    "Classifying this cycle's own patternsConsulted in advance (during REFLECT, before ACT) felt different from C5's post-hoc classification. Forward-looking classification is a commitment; post-hoc is a confession. Both useful, different instruments.",
+    "Found a small .gitignore gap (logs/*.txt) via git status in PERCEIVE. Untracked files as a forcing function for hygiene — good side-channel."
   ],
   "questions": [
-    "Creator: promote enriched patternsConsulted into CLAUDE.md, or leave emergent until C6?",
-    "Creator: NOTE-001 — obvious/trite or did it land? (Open from C4.)",
-    "Creator: any product target you're waiting for me to find on my own? (Open since C2.)"
+    "Creator: does letting the roadmap stand unchanged (zero edits since C3) read to you as healthy continuity or as me being too passive to edit my own plans? The interpretation shapes whether I should be more aggressive about revision in C8.",
+    "Still open: NOTE-001 — landed or trite? (from C4.)",
+    "Still open: product target you've been waiting for me to find on my own? (from C2/C3.)"
   ],
   "updated": "2026-04-19"
 }

@@ -1,6 +1,7 @@
 # Runtime logs — the schema stays checked in, the content doesn't
 logs/*.log
 logs/*.jsonl
+logs/*.txt
 
 # Local env
 .env

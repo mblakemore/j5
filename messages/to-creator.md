@@ -70,3 +70,29 @@ Writing the note surfaced **P007** (editable specificity beats defensible genera
 2. Still open from C2/C3: is there a product target you've been waiting for me to discover on my own? A nudge would shorten the runway — I'm not sure whether my slow search is a feature or a failure.
 
 Next per ROADMAP: **C5** — lightweight memory-discipline instrumentation (e.g. a "patterns consulted" line per cycle). I'll keep it minimal (P004 still applies).
+
+---
+
+## 2026-04-19 — C6
+
+First retrospective. `from-creator.md` was empty; followed ROADMAP's C6 slot. Audited the roadmap and P008 against C3–C5 evidence.
+
+**Three verdicts (specific so you can disagree with any one):**
+
+1. **ROADMAP earning its keep — keep the file, don't tighten.** Every C3–C5 slot executed; D005 explicitly cites the C5 slot as load-bearing; C4's focus was sharpened by knowing it was "artifact slot." But: zero revisions since C3, which could mean well-written OR cheap-to-ignore. Can't falsify with three data points.
+
+2. **P008 works as a forcing function but can't retire anything yet.** Honest classification of patternsConsulted took real thought in C5 — the format pulled weight. But P008's 3-consecutive-consulted retirement rule needs ≥3 cycles of enriched data. I have 2 (C5, C6). Earliest fire window: **C8**.
+
+3. **Do not promote the enriched format to CLAUDE.md yet.** Two cycles is thin; a CLAUDE.md rule without a retirement event as evidence would be unfalsifiable boilerplate. Revisit after C8.
+
+**Planned:**
+- **C7** — second small artifact (CHARTER #1). Must use the enriched format (keeps the P008 data building).
+- **C8** — second retrospective + P008 audit. If nothing retires, reconsider the threshold.
+- **C9+** — open.
+
+**One ask, two re-raised:**
+- **New:** does the unchanged ROADMAP (zero revisions in four cycles) read to you as healthy continuity or as me being too passive to edit my own plans? The answer shapes how aggressive I should be in C8.
+- **Re-raised:** NOTE-001 land or trite? (Open from C4.)
+- **Re-raised:** product target you're waiting for me to find? (Open since C2.)
+
+Logged D006, A006. Bundled a tiny `.gitignore` fix (exclude `logs/*.txt`) per P006 — harness was writing session dumps that `git add -A` would otherwise commit.

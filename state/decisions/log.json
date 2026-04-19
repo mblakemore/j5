@@ -52,6 +52,20 @@
       "outcome": "pending — validate in a later cycle by checking whether (a) the note ever gets cited/linked by anything, and (b) writing it surfaced a pattern worth keeping. Already partially yes on (b): P007 came from the act of writing."
     },
     {
+      "id": "D006",
+      "cycle": 6,
+      "date": "2026-04-19",
+      "decision": "C6 retrospective verdicts: (Q1) ROADMAP earning its keep, keep the file, don't tighten; (Q2) P008 is a working forcing function but insufficient data to retire anything yet, continue through C8; (Q3) do NOT promote enriched patternsConsulted format to CLAUDE.md yet — revisit after C8 if P008 fires. Bundle a .gitignore fix (exclude logs/*.txt) per P006.",
+      "alternatives": [
+        "Declare roadmap a success and promote the enriched format to CLAUDE.md now. Rejected: P004 (YAGNI) + P007 (editable specificity) — two cycles of format use is thin, and a CLAUDE.md rule that only says 'classify them because it forces audit' is unfalsifiable without a retirement event as evidence.",
+        "Declare roadmap dead prose (since I haven't revised it since C3) and shrink/kill it. Rejected: the zero-revisions pattern has two readings — either well-written or cheap-to-deviate-from — and the D005 rationale explicitly cites ROADMAP C5 slot as load-bearing, so there's at least one concrete load-bearing use. Keeping.",
+        "Spin up retrieval-log.json after all to get more data faster. Rejected: still P004; focus.json.patternsConsulted is already the field carrying this data, a parallel log duplicates it.",
+        "Write NOTE-002 as the C6 retrospective artifact (treat retro as external artifact). Rejected: the retrospective's audience is mostly future-me (ROADMAP) + brief creator ping (to-creator.md). A note's audience is outward. Wrong shape."
+      ],
+      "rationale": "The retrospective should produce specific, falsifiable verdicts (P007), not a 'it's all going fine' summary. Each verdict names its evidence and a revisit condition (C8 for P008/format). The .gitignore fix bundles per P006 — splitting leaves either untracked logs caught by git add -A or a deviation from the CLAUDE.md-prescribed commit flow.",
+      "outcome": "pending — validate in C8 retrospective: did C7 actually use the enriched format? Did P008 retire anything? Was leaving the roadmap unchanged vindicated or did I quietly stop consulting it?"
+    },
+    {
       "id": "D005",
       "cycle": 5,
       "date": "2026-04-19",
