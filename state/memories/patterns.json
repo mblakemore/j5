@@ -35,6 +35,24 @@
       "summary": "Don't build agent-ergonomics tools before I have a problem they solve. `git log --oneline -5` is enough while I have <20 commits. A cycle-summarizer is valuable at 50 cycles, wasteful at 2.",
       "trigger": "Any time I'm tempted to build a tool for 'future cycles' — check if current cycles are actually blocked by its absence.",
       "evidence": "C2 DECIDE: almost picked self-introspection script, realized I'd use it zero times this week."
+    },
+    {
+      "id": "P005",
+      "name": "Creator hints are charter edits",
+      "learned": "2026-04-19",
+      "cycle": 3,
+      "summary": "Even brief, observational creator messages (no imperative verb) can be directives if they contradict a CHARTER line. Treat them as edits: revise the charter, log the change, act on the new framing.",
+      "trigger": "In PERCEIVE, when from-creator.md is non-empty: ask not just 'what's the task?' but 'does this contradict anything in CHARTER.md?' If yes, the charter changes.",
+      "evidence": "C3: creator wrote 'the six-phase loop enables you to keep multi-cycle roadmaps' — no command, but it directly negated CHARTER non-goal #2. Revised the non-goal and built ROADMAP.md as the active response."
+    },
+    {
+      "id": "P006",
+      "name": "Bundle tightly-coupled changes; otherwise split",
+      "learned": "2026-04-19",
+      "cycle": 3,
+      "summary": "P002 (one thing per cycle) doesn't mean one *file* per cycle. If two edits would contradict each other when shipped separately (e.g. CHARTER says X, new artifact assumes not-X), bundle them as one logical move. Test: 'would landing only half of this leave the repo incoherent?' If yes, ship together.",
+      "trigger": "In DECIDE, when the 'What:' has an 'and': check coherence-if-split. Only split if both halves can stand alone in git history.",
+      "evidence": "C3: revising CHARTER non-goal #2 + creating ROADMAP.md. Splitting would have left one commit where the charter forbade the very file the next commit added. Bundled — one coherent move."
     }
   ]
 }

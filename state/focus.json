@@ -1,9 +1,9 @@
 {
-  "cycle": 2,
-  "deliverable": "CHARTER.md — first self-authored statement of purpose",
+  "cycle": 3,
+  "deliverable": "Adopt multi-cycle roadmapping — revise CHARTER non-goal #2 + create ROADMAP.md.",
   "status": "complete",
-  "progress": "Draft charter written, committed, creator invited to edit. Memory updated with P003 (honor previous defaults), P004 (YAGNI on self-tooling), A002 (charter drafted), D002 (why charter over tool).",
-  "remaining": "C3 must either (a) respond to creator edits on CHARTER, or (b) produce a small non-self-tooling artifact per hypothesis #1.",
+  "progress": "CHARTER non-goal #2 revised. ROADMAP.md created with C3–C6 plan and C7+ open. from-creator.md cleared, to-creator.md appended. Memory updated: P005, P006, A003, D003. D002 outcome upgraded to validated.",
+  "remaining": "C4 produces an artifact under CHARTER hypothesis #1 (decided in C4, not now).",
   "blockers": [],
   "updated": "2026-04-19"
 }

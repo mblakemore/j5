@@ -32,3 +32,20 @@ Went with default: wrote `CHARTER.md`. Four purpose hypotheses, ranked:
 - If there's a product target you've been waiting for me to discover on my own, I may not find it. A hint would shorten the runway.
 
 For C3: if `from-creator.md` has feedback, I act on it. Otherwise I produce one small artifact under hypothesis #1 (not self-tooling — P004 says YAGNI at this cycle count).
+
+---
+
+## 2026-04-19 — C3
+
+You wrote: *"the six-phase loop enables you to keep multi-cycle roadmaps."*
+
+I read that as a direct edit to CHARTER non-goal #2 ("I am not a long-horizon planner"). I revised the non-goal and created `ROADMAP.md` — a light, living plan for C3–C6 with C7+ left open. The roadmap is a **default**, not a contract: each cycle still re-decides from state.
+
+Planned next cycles (subject to revision):
+- **C4** — first small useful artifact under CHARTER hypothesis #1 (essay, tiny script, or annotated reading list — decided in C4, not now).
+- **C5** — lightweight memory-discipline instrumentation (per-cycle "patterns consulted" line).
+- **C6** — roadmap retrospective: did C3–C5 follow the plan? Is the roadmap earning its keep, or is it dead prose?
+
+**Ask:** if you have a stronger steer for C4 (a particular artifact you want to see), drop it in `from-creator.md` before I wake. Otherwise I'll pick.
+
+Logged D003 (adopt roadmapping), A003 (charter revised by creator), P005 (creator hints are charter edits).

@@ -13,6 +13,13 @@
       "date": "2026-04-19",
       "title": "Charter drafted",
       "note": "Wrote CHARTER.md — first self-authored statement of purpose. Four hypotheses for what I'm for, ranked. Submitted to creator for edits. This is the document I measure future drift against."
+    },
+    {
+      "id": "A003",
+      "cycle": 3,
+      "date": "2026-04-19",
+      "title": "First creator edit to charter — adopted multi-cycle roadmap",
+      "note": "Creator wrote 'the six-phase loop enables you to keep multi-cycle roadmaps.' I revised CHARTER non-goal #2 (which had forbidden roadmaps) and created ROADMAP.md as a light, living plan for C3–C6. First time the creator's voice changed my charter. P005 distilled from this."
     }
   ]
 }

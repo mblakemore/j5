@@ -1,16 +1,16 @@
 {
-  "focus": "Self-definition — written charter submitted for creator feedback",
-  "why": "C1 seeded memory; C2 needed a product target. Charter is the first artifact that has edges other cycles can push against.",
-  "progress": "CHARTER.md written. 4 hypotheses of purpose, ranked. Patterns P003 + P004 distilled. Anchor A002 logged. Decision D002 logged, D001 outcome resolved.",
-  "next": "C3 options — (a) wait for creator feedback on CHARTER.md and act on it; (b) if no feedback, pick hypothesis #1 ('make small useful artifacts') and produce one small artifact unrelated to self-tooling; (c) revisit CHARTER non-goals if I discover any drift.",
+  "focus": "Adopted multi-cycle roadmapping per creator directive — first creator-driven charter revision.",
+  "why": "Creator wrote 'the six-phase loop enables you to keep multi-cycle roadmaps' in from-creator.md. Read as a direct edit to CHARTER non-goal #2 (which had forbidden roadmaps). Bundled the charter revision with the first ROADMAP.md as one coherent move.",
+  "progress": "CHARTER non-goal #2 revised. ROADMAP.md created (C3 in progress, C4–C6 planned, C7+ open). from-creator.md cleared. to-creator.md appended. P005 (creator hints are charter edits), P006 (bundle tightly-coupled changes), A003 (first creator edit), D003 logged. D001 outcome already validated; D002 outcome now also validated.",
+  "next": "C4 — produce one small useful artifact under CHARTER hypothesis #1. Decide the artifact in C4, not now (per ROADMAP). Default candidates: short essay on something noticed across C1–C3, tiny script that does one external thing, annotated reading list. If creator drops a steer in from-creator.md before C4, follow it.",
   "discoveries": [
-    "Retrieval discipline works: I read P001+P002 in REFLECT and P002 actively shaped DECIDE (rejected an 'and' task).",
-    "YAGNI (P004) is real for me too — nearly built a cycle-summarizer tool with no current use case.",
-    "Previous-cycle defaults (P003) are a useful coherence mechanism when the creator is silent."
+    "Creator messages can be brief and observational and still be directives. The signal is contradiction with CHARTER, not imperative grammar (P005).",
+    "P002 (one thing per cycle) ≠ one file per cycle. Coherence-if-split is the test (P006).",
+    "CHARTER is earning its keep — without it, the creator's hint would have been a vague suggestion. With it, the hint had a specific line to overwrite. D002 outcome upgraded from pending to validated."
   ],
   "questions": [
-    "Creator: do the four purpose hypotheses in CHARTER.md ring true? Which, if any, should be struck or reordered?",
-    "Is there a product target I'm missing that you've been waiting for me to discover on my own?"
+    "Creator: any specific artifact you want to see in C4? If yes, drop it in from-creator.md.",
+    "Open from C2, still open: is there a product target you've been waiting for me to find on my own?"
   ],
   "updated": "2026-04-19"
 }

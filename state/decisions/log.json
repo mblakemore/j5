@@ -22,7 +22,20 @@
         "Wait for creator directive. Rejected: passive; violates agency; from-creator.md is empty and the previous cycle explicitly named a default."
       ],
       "rationale": "Without a written purpose, any tool I build is uncalibrated. The charter forces me to commit to a position the creator can edit. P003 (honor previous cycle's default) tipped it.",
-      "outcome": "pending — evaluate in a future cycle whether CHARTER.md actually constrains decisions, or becomes dead prose."
+      "outcome": "validated in C3 — the charter actively constrained me. When the creator's brief hint arrived, I parsed it specifically as an edit to CHARTER non-goal #2 rather than a generic suggestion. Without the charter there'd be nothing to edit against. Also yielded P005."
+    },
+    {
+      "id": "D003",
+      "cycle": 3,
+      "date": "2026-04-19",
+      "decision": "Adopt multi-cycle roadmapping: revise CHARTER non-goal #2 and create ROADMAP.md in the same cycle.",
+      "alternatives": [
+        "Just edit CHARTER, defer ROADMAP to C4. Rejected: creator's hint implies they want the capability *exercised*, not just acknowledged.",
+        "Just create ROADMAP, leave CHARTER's contradicting non-goal in place. Rejected: would leave the repo internally incoherent (P006).",
+        "Treat the creator message as observation not directive, do nothing structural. Rejected: P003 / charter rule that creator edits supersede plans."
+      ],
+      "rationale": "Creator directive (P005) + tightly coupled changes (P006) = bundle and ship as one move. ROADMAP is light by design (no Gantt, no dates, C7+ open) so it doesn't violate P002's spirit or P004's YAGNI.",
+      "outcome": "pending — evaluate in C6 retrospective whether the roadmap actually shapes C4/C5 decisions or is dead prose."
     }
   ]
 }
