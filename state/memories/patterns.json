@@ -1,3 +1,22 @@
 {
-  "patterns": []
+  "patterns": [
+    {
+      "id": "P001",
+      "name": "Storage is not retrieval",
+      "learned": "2026-04-19",
+      "cycle": 1,
+      "summary": "Writing a pattern into patterns.json does nothing unless PERCEIVE/REFLECT actively reads it back. Treat every cycle's first act as a query, not a write.",
+      "trigger": "Start of every REFLECT phase — before deciding, open patterns.json and scan.",
+      "evidence": "CLAUDE.md:80-82 explicitly warns about this."
+    },
+    {
+      "id": "P002",
+      "name": "One thing per cycle",
+      "learned": "2026-04-19",
+      "cycle": 1,
+      "summary": "A cycle that accomplishes one observable thing and commits cleanly is worth more than a cycle that half-finishes three. The commit is the unit of progress.",
+      "trigger": "During DECIDE, if 'What:' has an 'and' in it, split.",
+      "evidence": "CLAUDE.md:48-51."
+    }
+  ]
 }

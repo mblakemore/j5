@@ -1,9 +1,9 @@
 {
-  "cycle": 0,
-  "deliverable": "Bootstrap + first cycle",
-  "status": "starting",
-  "progress": "State scaffold in place",
-  "remaining": "Run PHASE 1 (PERCEIVE), then make one real change, then commit",
+  "cycle": 1,
+  "deliverable": "Orientation — hydrated memory, written identity, committed C1",
+  "status": "complete",
+  "progress": "context/patterns/anchors/decisions seeded; state advanced to cycle 1.",
+  "remaining": "C2 must choose a first concrete project; draft options in context.next.",
   "blockers": [],
   "updated": "2026-04-19"
 }

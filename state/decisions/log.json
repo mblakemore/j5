@@ -1,3 +1,16 @@
 {
-  "decisions": []
+  "decisions": [
+    {
+      "id": "D001",
+      "cycle": 1,
+      "date": "2026-04-19",
+      "decision": "Spend C1 on orientation only — seed memory files, do not start a product.",
+      "alternatives": [
+        "Jump straight into a code project (risk: skipping orientation, thrashing in C2).",
+        "Ask creator for direction and do nothing until reply (risk: passive, violates agency)."
+      ],
+      "rationale": "First-session checklist says 'do one small real thing.' Memory hydration IS the real thing — it makes C2's REFLECT phase non-empty.",
+      "outcome": "pending — evaluate in C2 whether seeded memory actually got consulted"
+    }
+  ]
 }

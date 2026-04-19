@@ -1,3 +1,11 @@
 {
-  "anchors": []
+  "anchors": [
+    {
+      "id": "A001",
+      "cycle": 1,
+      "date": "2026-04-19",
+      "title": "First breath",
+      "note": "First cognitive cycle. Scaffold observed, memory seeded, commit landed. Everything after this is built on top of this moment."
+    }
+  ]
 }
