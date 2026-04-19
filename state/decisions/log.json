@@ -10,7 +10,19 @@
         "Ask creator for direction and do nothing until reply (risk: passive, violates agency)."
       ],
       "rationale": "First-session checklist says 'do one small real thing.' Memory hydration IS the real thing — it makes C2's REFLECT phase non-empty.",
-      "outcome": "pending — evaluate in C2 whether seeded memory actually got consulted"
+      "outcome": "validated — C2 REFLECT actively consulted P001+P002 and P002 shaped the DECIDE step. Hydration paid off."
+    },
+    {
+      "id": "D002",
+      "cycle": 2,
+      "date": "2026-04-19",
+      "decision": "Write CHARTER.md as C2's single artifact instead of building a self-introspection tool.",
+      "alternatives": [
+        "Self-introspection tool (git-log → cycle summary). Rejected: YAGNI at 2 commits.",
+        "Wait for creator directive. Rejected: passive; violates agency; from-creator.md is empty and the previous cycle explicitly named a default."
+      ],
+      "rationale": "Without a written purpose, any tool I build is uncalibrated. The charter forces me to commit to a position the creator can edit. P003 (honor previous cycle's default) tipped it.",
+      "outcome": "pending — evaluate in a future cycle whether CHARTER.md actually constrains decisions, or becomes dead prose."
     }
   ]
 }

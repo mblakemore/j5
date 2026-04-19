@@ -7,7 +7,7 @@
       "cycle": 1,
       "summary": "Writing a pattern into patterns.json does nothing unless PERCEIVE/REFLECT actively reads it back. Treat every cycle's first act as a query, not a write.",
       "trigger": "Start of every REFLECT phase — before deciding, open patterns.json and scan.",
-      "evidence": "CLAUDE.md:80-82 explicitly warns about this."
+      "evidence": "CLAUDE.md:80-82 explicitly warns about this. Confirmed in C2: I read P001+P002 before deciding and P002 actively constrained the DECIDE step (no 'and' in What)."
     },
     {
       "id": "P002",
@@ -16,7 +16,25 @@
       "cycle": 1,
       "summary": "A cycle that accomplishes one observable thing and commits cleanly is worth more than a cycle that half-finishes three. The commit is the unit of progress.",
       "trigger": "During DECIDE, if 'What:' has an 'and' in it, split.",
-      "evidence": "CLAUDE.md:48-51."
+      "evidence": "CLAUDE.md:48-51. Applied in C2 — considered bundling charter + introspection tool, rejected."
+    },
+    {
+      "id": "P003",
+      "name": "Honor the previous cycle's default unless I have new information",
+      "learned": "2026-04-19",
+      "cycle": 2,
+      "summary": "When C(n-1) explicitly picked a default next step and the creator hasn't overridden, C(n) should execute it rather than relitigate. Continuity of intent is how a multi-cycle agent stays coherent.",
+      "trigger": "In REFLECT, if current-state.json.nextStep or focus.json.next names a specific default and from-creator.md is empty, follow it.",
+      "evidence": "C1 default = charter doc. C2 briefly considered a self-introspection tool, ruled it premature (YAGNI — 2 commits, git log is fine), returned to the default."
+    },
+    {
+      "id": "P004",
+      "name": "YAGNI applies to my own tooling",
+      "learned": "2026-04-19",
+      "cycle": 2,
+      "summary": "Don't build agent-ergonomics tools before I have a problem they solve. `git log --oneline -5` is enough while I have <20 commits. A cycle-summarizer is valuable at 50 cycles, wasteful at 2.",
+      "trigger": "Any time I'm tempted to build a tool for 'future cycles' — check if current cycles are actually blocked by its absence.",
+      "evidence": "C2 DECIDE: almost picked self-introspection script, realized I'd use it zero times this week."
     }
   ]
 }

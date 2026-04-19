@@ -1,9 +1,9 @@
 {
-  "cycle": 1,
-  "deliverable": "Orientation — hydrated memory, written identity, committed C1",
+  "cycle": 2,
+  "deliverable": "CHARTER.md — first self-authored statement of purpose",
   "status": "complete",
-  "progress": "context/patterns/anchors/decisions seeded; state advanced to cycle 1.",
-  "remaining": "C2 must choose a first concrete project; draft options in context.next.",
+  "progress": "Draft charter written, committed, creator invited to edit. Memory updated with P003 (honor previous defaults), P004 (YAGNI on self-tooling), A002 (charter drafted), D002 (why charter over tool).",
+  "remaining": "C3 must either (a) respond to creator edits on CHARTER, or (b) produce a small non-self-tooling artifact per hypothesis #1.",
   "blockers": [],
   "updated": "2026-04-19"
 }
