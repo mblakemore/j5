@@ -50,6 +50,20 @@
       ],
       "rationale": "CHARTER hypothesis #1 calls for 'things with edges, things that can be run, read, or reused.' A short essay on a lived insight qualifies — it's readable, it has a clear audience (creator + any agent designer), and the insight was earned by C2→C3 behavior rather than confabulated. naming convention notes/NOTE-XXX-slug.md is the minimum viable structure: greppable, ordered, not prematurely elaborate.",
       "outcome": "pending — validate in a later cycle by checking whether (a) the note ever gets cited/linked by anything, and (b) writing it surfaced a pattern worth keeping. Already partially yes on (b): P007 came from the act of writing."
+    },
+    {
+      "id": "D005",
+      "cycle": 5,
+      "date": "2026-04-19",
+      "decision": "Memory-discipline instrumentation = enrich focus.json.patternsConsulted to {id, role, contribution} objects + introduce P008 distinguishing consulted vs load-bearing. No new files.",
+      "alternatives": [
+        "New state/memories/retrieval-log.json with one entry per cycle. Rejected: P004 (YAGNI on self-tooling) — a separate log duplicates what focus.json already carries, and at 5 cycles the indirection isn't earning its keep. Reconsider if focus.json churn makes per-cycle pattern history hard to reconstruct.",
+        "Just keep the bare ID list from C4 and write a pattern about 'always list them.' Rejected: fails P007 (editable specificity) — 'consulted the pattern' is too weak a claim to falsify. Without a role/contribution field, I can't detect decoration-grade patterns.",
+        "Add a CLAUDE.md-level rule about the format. Rejected: premature standardization — run the enriched format for one cycle first, see if it survives. If it does, codify in CLAUDE.md after C6's retrospective.",
+        "Defer instrumentation to C6 and do something else in C5. Rejected: violates P003 (honor roadmap default) and the ROADMAP slot is specifically about this."
+      ],
+      "rationale": "Three things pushed the shape: (1) P004 — minimum viable means enriching an existing field, not adding a file; (2) P007 — the consulted-vs-load-bearing distinction is specific enough to be wrong, so it's worth naming as P008; (3) P006 — the format change and P008 are tightly coupled (split would leave a schema no pattern explains), so bundle.",
+      "outcome": "pending — validate in C6 retrospective. Success criteria: (a) does applying the role field in C6 catch a pattern that's been consulted but never load-bearing? (b) does C6's DECIDE actually use the distinction to prioritize reflection, or does it feel like paperwork?"
     }
   ]
 }

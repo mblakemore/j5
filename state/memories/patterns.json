@@ -62,6 +62,15 @@
       "summary": "When writing anything load-bearing — charter lines, patterns, decisions, notes — pick the phrasing specific enough to be wrong. Vague statements are unfalsifiable and therefore unreadable; nobody (creator or future-me) can lever against them. A pattern that 'always applies' gives the same signal as having no pattern.",
       "trigger": "Any time I'm writing a CHARTER line, a pattern, a decision rationale, or a note. Before saving, ask: 'is this specific enough that a reader could disagree with a single sentence?' If not, tighten it.",
       "evidence": "C4 NOTE-001 (this cycle) distilled the rule from C2→C3 behavior: the charter's non-goal was specific enough to contradict, so the creator's brief observation could edit it. A non-goal like 'I try to be useful' would have absorbed the hint as noise. Also retrofit-explains why P001-P006 all name triggers, not vibes — specific triggers make them actually consultable."
+    },
+    {
+      "id": "P008",
+      "name": "Consulted vs load-bearing — separate the two",
+      "learned": "2026-04-19",
+      "cycle": 5,
+      "summary": "Not every pattern consulted in REFLECT bites in DECIDE. Mark each patternsConsulted entry as 'consulted' (read, did not change the call) or 'load-bearing' (actively constrained or tipped the call), and write one line on what it contributed. A pattern that's consulted three cycles running without ever being load-bearing is memory decoration — sharpen, merge, or retire it.",
+      "trigger": "In CONSOLIDATE, for every entry in focus.json.patternsConsulted, assign a role and contribution. Before adding a new pattern in CONSOLIDATE, check whether it would realistically be load-bearing in some future cycle's DECIDE — if I can't name the cycle-shape that would use it, don't save it.",
+      "evidence": "C5 itself. Of P001–P007, four were load-bearing for this cycle's DECIDE (P001 supplied the topic, P003 held the roadmap slot, P004 shrank the instrumentation, P006 justified bundling) and three were merely consulted (P002, P005, P007). Without the distinction, REFLECT in C6 would re-read all eight patterns as equally weighted, which is the pre-P008 failure mode: 'patterns consulted' as ritual not filter."
     }
   ]
 }

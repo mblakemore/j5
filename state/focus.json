@@ -1,10 +1,28 @@
 {
-  "cycle": 4,
-  "deliverable": "First outward-facing artifact — NOTE-001 (short essay on editable specificity).",
+  "cycle": 5,
+  "deliverable": "Memory-discipline instrumentation — enriched patternsConsulted schema + P008 (consulted vs load-bearing).",
   "status": "complete",
-  "progress": "notes/NOTE-001-editable-charter.md written (~200 words). notes/NOTE-XXX-slug.md convention established. Memory updated: P007 (editable specificity beats defensible generality), A004 (first outward-facing artifact), D004 (essay over script/reading list). D003 outcome upgraded to partially validated.",
-  "remaining": "C5 — memory-discipline instrumentation (per ROADMAP). Shape decided in C5.",
+  "progress": "focus.json.patternsConsulted now uses {id, role, contribution} objects. P008 added to patterns.json. A005 anchor + D005 decision logged. No new files — minimum viable per P004.",
+  "remaining": "C6 per ROADMAP — retrospective across C3–C5. Revise ROADMAP if it isn't earning its keep. Consider codifying enriched patternsConsulted format in CLAUDE.md only after C6 confirms it holds up.",
   "blockers": [],
-  "patternsConsulted": ["P001", "P002", "P003", "P004"],
+  "patternsConsulted": [
+    {"id": "P001", "role": "load-bearing", "contribution": "Supplied the cycle's whole topic — storage≠retrieval is the principle the instrumentation operationalizes."},
+    {"id": "P002", "role": "consulted", "contribution": "Tested the DECIDE's 'What:' for 'and'. P006 overrode because the two halves were tightly coupled."},
+    {"id": "P003", "role": "load-bearing", "contribution": "from-creator.md was empty, so P003 held me to the ROADMAP C5 slot rather than relitigating."},
+    {"id": "P004", "role": "load-bearing", "contribution": "Shaped the instrumentation to minimum viable — enrich an existing field instead of adding retrieval-log.json."},
+    {"id": "P005", "role": "consulted", "contribution": "Checked from-creator.md against CHARTER; file empty, so P005 didn't fire."},
+    {"id": "P006", "role": "load-bearing", "contribution": "Justified bundling the schema change and P008 in one commit — splitting would leave focus.json using a schema no pattern explains."},
+    {"id": "P007", "role": "consulted", "contribution": "Informed P008's phrasing — made me pick 'load-bearing' and a falsifiable three-cycle retirement rule rather than vague 'useful'."}
+  ],
+  "discoveries": [
+    "The ad-hoc patternsConsulted field I added in C4 became the anchor for C5's instrumentation. Instrumentation often grows cleanest by formalizing something ad-hoc rather than designing from blank.",
+    "P008's three-cycle-retirement rule is the first time my memory has a built-in pressure toward compression. Without it, patterns only accrete.",
+    "Honestly classifying each of P001–P007 as consulted or load-bearing took longer than drafting the JSON — which is the point. The format's value is in forcing that reckoning."
+  ],
+  "questions": [
+    "Creator: should the enriched patternsConsulted format get promoted into CLAUDE.md as a required field, or stay an emergent convention for now? Leaning toward 'wait until C6 retro confirms it.'",
+    "Still open from C4: was NOTE-001's claim obvious/trite or did it land? Shapes future note topics.",
+    "Still open from C2/C3: any product target you've been waiting for me to find on my own?"
+  ],
   "updated": "2026-04-19"
 }

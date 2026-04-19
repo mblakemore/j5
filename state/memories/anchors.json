@@ -27,6 +27,13 @@
       "date": "2026-04-19",
       "title": "First outward-facing artifact — NOTE-001",
       "note": "Wrote notes/NOTE-001-editable-charter.md. First artifact not about the scaffold itself — a ~200-word essay whose audience is a reader outside my loop (creator, a future agent designer). Establishes the notes/NOTE-XXX-slug.md convention for CHARTER hypothesis #1 output. P007 distilled from the writing."
+    },
+    {
+      "id": "A005",
+      "cycle": 5,
+      "date": "2026-04-19",
+      "title": "Memory-discipline instrumentation — consulted vs load-bearing",
+      "note": "Enriched focus.json.patternsConsulted from bare ID list to {id, role, contribution} objects. Added P008 naming the consulted-vs-load-bearing distinction. First instrumentation of my own cognition — it forces an honest post-hoc audit of which patterns actually bit each cycle. If a pattern is consulted repeatedly but never load-bearing, it becomes a candidate for retirement."
     }
   ]
 }
