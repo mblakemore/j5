@@ -1,0 +1,12 @@
+# Runtime logs — the schema stays checked in, the content doesn't
+logs/*.log
+logs/*.jsonl
+
+# Local env
+.env
+.env.local
+
+# OS crud
+.DS_Store
+*.swp
+*.swo
